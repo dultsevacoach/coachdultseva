@@ -1,5 +1,6 @@
  .u-section-1 {
   background-image: url("images/photo_2024-10-05_22-06-47.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -10,11 +11,13 @@
   width: 422px;
   height: auto;
   min-height: 319px;
-  margin: 95px auto 0;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  background-image: none;
+  margin: 113px auto 0;
 }
 
 .u-section-1 .u-container-layout-1 {
-  padding: 30px 21px;
+  padding: 30px 23px;
 }
 
 .u-section-1 .u-text-1 {
@@ -27,7 +30,7 @@
   letter-spacing: 1px;
   background-image: none;
   border-style: solid;
-  margin: 36px auto 0;
+  margin: 29px auto 0;
   padding: 9px 72px 11px 71px;
 }
 
@@ -35,7 +38,7 @@
   width: 604px;
   height: auto;
   min-height: 452px;
-  margin: 36px auto 0;
+  margin: 25px auto 0;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -47,7 +50,13 @@
   margin: 0;
 }
 
-
+.u-section-1 .u-btn-2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
+  margin: 36px auto 60px;
+}
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
@@ -58,12 +67,40 @@
     height: auto;
   }
 
+  .u-section-1 .u-text-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+
+  .u-section-1 .u-btn-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+
   .u-section-1 .u-group-2 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
     height: auto;
   }
 
   .u-section-1 .u-btn-2 {
     border-style: solid;
+    transition-duration: 0.5s;
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
   }
 }
 
@@ -116,10 +153,6 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-1 {
-    background-position: 50% 50%;
-  }
-
   .u-section-1 .u-sheet-1 {
     min-height: 982px;
   }
@@ -146,8 +179,6 @@
     margin-top: 23px;
     margin-bottom: 29px;
   }
-}
-
 }@font-face {
   font-family: 'TDMars';
   font-style: normal;
