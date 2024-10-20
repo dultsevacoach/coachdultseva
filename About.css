@@ -1,0 +1,200 @@
+ .u-section-1 {
+  background-image: url("images/photo_2024-10-05_22-06-47.jpg");
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1141px;
+}
+
+.u-section-1 .u-group-1 {
+  width: 422px;
+  height: auto;
+  min-height: 319px;
+  margin: 95px auto 0;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 21px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 0;
+}
+
+.u-section-1 .u-btn-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-image: none;
+  border-style: solid;
+  margin: 36px auto 0;
+  padding: 9px 72px 11px 71px;
+}
+
+.u-section-1 .u-group-2 {
+  width: 604px;
+  height: auto;
+  min-height: 452px;
+  margin: 36px auto 0;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px 21px;
+}
+
+.u-section-1 .u-text-2 {
+  line-height: 1.8;
+  margin: 0;
+}
+
+.u-section-1 .u-btn-2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition-duration: 0.5s;
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
+  margin: 36px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 2028px;
+  }
+
+  .u-section-1 .u-group-1 {
+    height: auto;
+  }
+
+  .u-section-1 .u-group-2 {
+    height: auto;
+  }
+
+  .u-section-1 .u-btn-2 {
+    border-style: solid;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1553px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1165px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-group-2 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 982px;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-top: 14px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 23px;
+  }
+
+  .u-section-1 .u-group-2 {
+    margin-top: 24px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 23px;
+    margin-bottom: 29px;
+  }
+}
+
+.u-section-1 .u-btn-2,
+.u-section-1 .u-btn-2:before,
+.u-section-1 .u-btn-2 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-1 .u-btn-2.u-btn-2.u-btn-2:hover {
+  border-style: solid !important;
+  border-top-width: 2px !important;
+  border-left-width: 2px !important;
+  border-right-width: 2px !important;
+  border-bottom-width: 2px !important;
+  border-color: #404040 !important;
+  transform: scale(1) translateY(px) !important;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid !important;
+  border-width: 0px !important;
+  border-color: transparent !important;
+}
+
+.u-section-1 .u-btn-2.u-btn-2.u-btn-2.hover {
+  border-style: solid !important;
+  border-top-width: 2px !important;
+  border-left-width: 2px !important;
+  border-right-width: 2px !important;
+  border-bottom-width: 2px !important;
+  border-color: #404040 !important;
+  transform: scale(1) translateY(px) !important;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid !important;
+  border-width: 0px !important;
+  border-color: transparent !important;
+}@font-face {
+  font-family: 'TDMars';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/TDMars.otf);
+}
